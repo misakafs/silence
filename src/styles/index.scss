@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'SILENCE';
+    src: url('/src/asserts/font/ShenYunFenMengShaoNvXin-2.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%), url(https://zhangxiaocai.cn/index/assets/css/images/overlay-pattern.png),
+        url(https://zhangxiaocai.cn/index/assets/css/images/overlay.svg);
+    // box-shadow: 0 2px 6px rgb(228 63 66 / 20%);
+    font-family: Fira Mono, 'Noto Serif SC', -apple-system, Roboto, Helvetica Neue, sans-serif;
+    transition: height 2s linear;
+    width: 100vw;
+}
+
+h3 {
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    max-width: 1440px;
+    width: 100%;
+}
