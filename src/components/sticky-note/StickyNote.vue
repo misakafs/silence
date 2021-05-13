@@ -32,7 +32,6 @@ article {
     // background-image: linear-gradient(90deg, transparent 79px, #74b9ff 79px, #74b9ff 81px, transparent 81px), linear-gradient(#eee 0.05em, transparent 0.05em);
     border-radius: 10px;
 
-    border: 1px solid #f5f9f4;
     box-shadow: inset -2px 1px 20px 3px rgba(#e6eae4, 0.6);
 
     // transform: rotate(358deg);

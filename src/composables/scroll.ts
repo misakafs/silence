@@ -22,5 +22,6 @@ export function useScroll(handler: scrollHandlerFunc) {
         return
     }
     h = handler
-    window.addEventListener('scroll', handleScroll)
+    const dom = document.querySelector('main') || window
+    dom.addEventListener('scroll', handleScroll)
 }
