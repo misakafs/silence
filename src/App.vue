@@ -21,12 +21,12 @@ import query from './http'
 // 搜索框变量
 const keyword = ref('')
 const list = ref<any>([])
-const page = ref<Silence.NextPage>(null)
+const page = ref<Silence.NextPage | null | undefined>(null)
 const isloading = ref(true)
 
 const loadData = async () => {
     isloading.value = true
-    if (!page.value.hasNext) {
+    if (!page.value?.hasNext) {
         isloading.value = false
         return
     }
