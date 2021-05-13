@@ -22,6 +22,7 @@
         "graphql-request": "^3.4.0",
         "highlight.js": "^10.6.0",
         "js-md5": "^0.7.3",
+        "vconsole": "^3.5.1",
         "vue": "^3.0.11",
         "web-storage-cache": "^1.1.1"
     },
