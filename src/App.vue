@@ -25,6 +25,9 @@ const page = ref<Silence.NextPage | null | undefined>(null)
 const isloading = ref(true)
 
 const loadData = async () => {
+    if (isloading.value) {
+        return
+    }
     isloading.value = true
     if (!page.value?.hasNext) {
         isloading.value = false

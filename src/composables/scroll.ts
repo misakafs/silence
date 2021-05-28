@@ -24,6 +24,5 @@ export function useScroll(handler: scrollHandlerFunc) {
     }
     h = handler
     const dom = document.querySelector('main') || window
-    console.log('开启监听滚动:',dom)
     dom.addEventListener('scroll', handleScroll)
 }
