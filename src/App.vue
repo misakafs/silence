@@ -22,7 +22,7 @@ import query from './http'
 const keyword = ref('')
 const list = ref<any>([])
 const page = ref<Silence.NextPage | null | undefined>(null)
-const isloading = ref(true)
+const isloading = ref(false)
 
 const loadData = async () => {
     if (isloading.value) {
