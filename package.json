@@ -2,7 +2,7 @@
     "name": "silence",
     "version": "0.0.1",
     "description": "collect my favorite librarys and inspirations",
-    "repository": "https://hub.fastgit.org/lhlyu/silence.git",
+    "repository": "https://github.com/misakafs/silence.git",
     "author": "lhlyu",
     "license": "MIT",
     "scripts": {
@@ -12,7 +12,7 @@
         "serve": "vite preview"
     },
     "cfg": {
-        "repo": "lhlyu/silence",
+        "repo": "misakafs/silence",
         "count": 30,
         "ttl": 600
     },
