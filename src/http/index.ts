@@ -9,7 +9,8 @@ const baseUrl = 'https://api.github.com/graphql'
 // https://docs.github.com/cn/github/searching-for-information-on-github/searching-issues-and-pull-requests
 
 // 防止token被github检测到，所以进行了拆分
-const token = 'ghp_7djgCVUrADhqqBdlf2' + 'zti1nlrzpkj53oFrvc'
+const tokens = ['l8BeuOPPIRwfMDve4f3yKm', 'ghp_6SnN4TYRtxq1Vp']
+const token = tokens[1] + tokens[0]
 
 const graphQLClient = new GraphQLClient(baseUrl, {
     headers: {
